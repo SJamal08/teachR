@@ -29,6 +29,13 @@ const TeachrFavorites = () => {
                 useScrollView={true}
             />
 
+            {/* {
+                data.map((teachr) => (
+                    <CarouselCard item={teachr} />
+                ))
+
+            } */}
+
             <Button
                 title="Go to teach'r with backend"
                 onPress={goToBackend}
